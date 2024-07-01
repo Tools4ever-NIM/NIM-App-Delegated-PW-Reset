@@ -30,6 +30,7 @@ DPWR (Delegated Password Reset) consists of two essential components: the Config
     1. OrganizationUnit
         1. CanonicalName attribute should imported into NIM (Settings tab)
         2. Key should be set to the Distinguished Name (Columns tab)
+        3. A relation should exist from the OrganizationalUnit Path to OrganizationalUnit DN. (To support recursion)
     2. Users
         1. Relation between users Path to the Distinguished Name.
 3. Internal
