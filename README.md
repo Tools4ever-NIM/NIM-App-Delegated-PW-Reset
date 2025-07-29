@@ -25,16 +25,12 @@ DPWR (Delegated Password Reset) consists of two essential components: the Config
 - Enhance productivity by delegating password-resetting responsibilities.
 
 # Configuration
-1. Import attached Repository JSON, and restore it into your NIM Instance.
-2. AD
-    1. OrganizationUnit
-        1. CanonicalName attribute should imported into NIM (Settings tab)
-        2. Key should be set to the Distinguished Name (Columns tab)
-        3. A relation should exist from the OrganizationalUnit Path to OrganizationalUnit DN. (To support recursion)
-    2. Users
-        1. Relation between users Path to the Distinguished Name.
-3. Internal
-    1. Enable the DPWR_Config lookup table to be an available Internal System Table.
-    2. Set the Primary Key on the DPWR_Config table to the ID column.
+1. Import attached Repository JSON
+2. Restore only the DPWR_Config Lookup table first.
+3. Configure the Internal system to include the newly added DPWR_Config table.
+4. Set the ID as the Key on the DPWR-Config table.
+5. Restore everything else in the Repository (Relations, Filters, Apps)
+
+Assumptions - AD has been configured as per the default schema.
 
 That's it!  Run the Delegated_PW_Config app to setup Group to OU relations.
