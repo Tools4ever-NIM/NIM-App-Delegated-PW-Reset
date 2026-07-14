@@ -86,5 +86,15 @@ The **Password Reset App** provides a streamlined, user-friendly interface for a
 - 	Set the ID as the Key on the DPWR-Config table.
 -	Edit Repo, Restore everything else in the Repository (Relations, Filters, Apps)
 -	Run the Delegated_PW_Config app to setup Group to OU relations.
-  
+
+  # Screenshots
+  <img width="2009" height="1102" alt="image" src="https://github.com/user-attachments/assets/7eb7feae-8818-4b11-b215-4b3400e62e74" />
+  <img width="2009" height="1102" alt="image" src="https://github.com/user-attachments/assets/83ac0c83-aad4-430a-b0bc-bf241598cd15" />
+
+  <img width="2009" height="1102" alt="image" src="https://github.com/user-attachments/assets/84ccbc25-82c4-4396-b9a0-7f567d10d910" />
+  <img width="2009" height="1102" alt="image" src="https://github.com/user-attachments/assets/a1c4bc4f-6ffe-4dd0-979f-ac66d51f3e7f" />
+
+
+
+
 
